@@ -1,4 +1,4 @@
-express = require('express');
+const express = require('express');
 const usersRouter = express.Router();
 const { createUser } = require('../controller/users.controller');
 
